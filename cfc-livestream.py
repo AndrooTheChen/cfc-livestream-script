@@ -47,7 +47,8 @@ time.sleep(1) # wait for cursor to move
 mouse.click(Button.left, 1) # press 'Go Live'
 mouse.position = (0, 0)
 
-time.sleep(5) # TEST
+# stream for duration of service
+time.sleep(5300)
 
 # end stream
 mouse.position = (368, 882)
